@@ -1,0 +1,143 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="11e7338299174001b0f7358ede1cc002" name="Mapa mental - CubeSat">
+    <mxGraphModel dx="1012" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="central" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;" value="Sistema Especialista&lt;br&gt;&lt;b&gt;Diagnóstico de Anomalias em CubeSat&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="300" x="560" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="interface" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;align=center;verticalAlign=middle;" value="&lt;b&gt;20 perguntas ao usuário&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="290" x="565" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="regras" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;" value="Base de Conhecimento&lt;br&gt;&lt;b&gt;36 regras de produção&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="290" x="565" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="risco" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;" value="Variável intermediária&lt;br&gt;&lt;b&gt;risco_missao&lt;/b&gt;&lt;br&gt;baixo / medio / alto" vertex="1">
+          <mxGeometry height="75" width="290" x="555" y="845.21" as="geometry" />
+        </mxCell>
+        <mxCell id="diagnostico" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;" value="Objetivo do sistema&lt;br&gt;&lt;b&gt;diagnostico&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="290" x="555" y="965.21" as="geometry" />
+        </mxCell>
+        <mxCell id="conclusoes" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;align=center;verticalAlign=middle;" value="&lt;b&gt;Conclusões possíveis&lt;/b&gt;&lt;br&gt;operacao_nominal&lt;br&gt;falha_energia&lt;br&gt;falha_comunicacao&lt;br&gt;falha_atitude&lt;br&gt;modo_seguro" vertex="1">
+          <mxGeometry height="125" width="340" x="530" y="1070.21" as="geometry" />
+        </mxCell>
+        <mxCell id="energia" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" value="&lt;b&gt;Energia&lt;/b&gt;" vertex="1">
+          <mxGeometry height="45" width="240" x="80" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="energia_q" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;align=center;verticalAlign=middle;" value="Perguntas/sintomas&lt;br&gt;• tensão da bateria&lt;br&gt;• carga da bateria&lt;br&gt;• corrente dos painéis&lt;br&gt;• iluminação/orientação solar&lt;br&gt;• eclipse prolongado" vertex="1">
+          <mxGeometry height="120" width="320" x="40" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="estado_bateria" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" value="&lt;b&gt;estado_bateria&lt;/b&gt;&lt;br&gt;normal / alerta / critico" vertex="1">
+          <mxGeometry height="70" width="150" x="30" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="estado_geracao" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" value="&lt;b&gt;estado_geracao_solar&lt;/b&gt;&lt;br&gt;normal / insuficiente" vertex="1">
+          <mxGeometry height="70" width="170" x="200" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="termico" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" value="&lt;b&gt;Térmico&lt;/b&gt;" vertex="1">
+          <mxGeometry height="45" width="240" x="410" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="termico_q" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;align=center;verticalAlign=middle;" value="Perguntas/sintomas&lt;br&gt;• temperatura da bateria alta&lt;br&gt;• temperatura da bateria baixa&lt;br&gt;• temperatura do OBC alta&lt;br&gt;• reinicializações frequentes" vertex="1">
+          <mxGeometry height="120" width="300" x="380" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="estado_termico" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" value="&lt;b&gt;estado_termico&lt;/b&gt;&lt;br&gt;normal / critico" vertex="1">
+          <mxGeometry height="70" width="210" x="425" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="comunicacao" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" value="&lt;b&gt;Comunicação&lt;/b&gt;" vertex="1">
+          <mxGeometry height="45" width="240" x="740" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="comunicacao_q" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;align=center;verticalAlign=middle;" value="Perguntas/sintomas&lt;br&gt;• sinal perdido&lt;br&gt;• comunicação intermitente&lt;br&gt;• antena orientada&lt;br&gt;• telemetria corrompida" vertex="1">
+          <mxGeometry height="120" width="300" x="710" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="estado_comunicacao" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" value="&lt;b&gt;estado_comunicacao&lt;/b&gt;&lt;br&gt;normal / falha_comunicacao / comunicacao_instavel" vertex="1">
+          <mxGeometry height="70" width="320" x="700" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="atitude" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" value="&lt;b&gt;Atitude&lt;/b&gt;" vertex="1">
+          <mxGeometry height="45" width="240" x="1070" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="atitude_q" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;align=center;verticalAlign=middle;" value="Perguntas/sintomas&lt;br&gt;• giroscópio incoerente&lt;br&gt;• magnetômetro incoerente&lt;br&gt;• erro de atitude alto&lt;br&gt;• resposta dos atuadores&lt;br&gt;• comando recente de manobra" vertex="1">
+          <mxGeometry height="120" width="300" x="1040" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="estado_sensor" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" value="&lt;b&gt;estado_sensor_atitude&lt;/b&gt;&lt;br&gt;normal / falha_giroscopio / falha_magnetometro / falha_sensores" vertex="1">
+          <mxGeometry height="85" width="230" x="1060" y="632.5" as="geometry" />
+        </mxCell>
+        <mxCell id="estado_controle" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" value="&lt;b&gt;estado_controle_atitude&lt;/b&gt;&lt;br&gt;normal / falha_atuador / erro_orientacao" vertex="1">
+          <mxGeometry height="85" width="230" x="1310" y="632.5" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="central" style="endArrow=block;html=1;rounded=1;strokeWidth=2;" target="interface" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="interface" style="endArrow=block;html=1;rounded=1;strokeWidth=2;" target="regras" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="regras" style="endArrow=block;html=1;rounded=1;strokeWidth=2;" target="energia" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="regras" style="endArrow=block;html=1;rounded=1;strokeWidth=2;" target="termico" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="regras" style="endArrow=block;html=1;rounded=1;strokeWidth=2;" target="comunicacao" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="regras" style="endArrow=block;html=1;rounded=1;strokeWidth=2;" target="atitude" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="energia" style="endArrow=block;html=1;rounded=1;strokeWidth=2;" target="energia_q" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="energia_q" style="endArrow=block;html=1;rounded=1;strokeWidth=2;" target="estado_bateria" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="energia_q" style="endArrow=block;html=1;rounded=1;strokeWidth=2;" target="estado_geracao" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="termico" style="endArrow=block;html=1;rounded=1;strokeWidth=2;" target="termico_q" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="termico_q" style="endArrow=block;html=1;rounded=1;strokeWidth=2;" target="estado_termico" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="comunicacao" style="endArrow=block;html=1;rounded=1;strokeWidth=2;" target="comunicacao_q" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="comunicacao_q" style="endArrow=block;html=1;rounded=1;strokeWidth=2;" target="estado_comunicacao" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="atitude" style="endArrow=block;html=1;rounded=1;strokeWidth=2;" target="atitude_q" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e15" edge="1" parent="1" source="atitude_q" style="endArrow=block;html=1;rounded=1;strokeWidth=2;" target="estado_sensor" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e16" edge="1" parent="1" source="atitude_q" style="endArrow=block;html=1;rounded=1;strokeWidth=2;" target="estado_controle" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e17" edge="1" parent="1" source="estado_bateria" style="endArrow=block;html=1;rounded=1;strokeWidth=2;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="risco" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e18" edge="1" parent="1" source="estado_geracao" style="endArrow=block;html=1;rounded=1;strokeWidth=2;" target="risco" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e19" edge="1" parent="1" source="estado_termico" style="endArrow=block;html=1;rounded=1;strokeWidth=2;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="risco" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="592.0000000000005" y="830.21" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e20" edge="1" parent="1" source="estado_comunicacao" style="endArrow=block;html=1;rounded=1;strokeWidth=2;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="risco" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="830.21" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e22" edge="1" parent="1" source="estado_controle" style="endArrow=block;html=1;rounded=1;strokeWidth=2;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="risco" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e29" edge="1" parent="1" source="risco" style="endArrow=block;html=1;rounded=1;strokeWidth=2;" target="diagnostico" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e30" edge="1" parent="1" source="diagnostico" style="endArrow=block;html=1;rounded=1;strokeWidth=2;" target="conclusoes" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
